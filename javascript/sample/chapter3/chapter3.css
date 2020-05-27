@@ -1,0 +1,77 @@
+h1 {
+  background-color: #389168;
+  width: 100%;
+  height: 25px;
+  margin: 5px;
+  padding: 5px;
+  padding-top: 7px;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+input[type="submit"], input[type="button"] {
+	border-radius: 5px;
+	height: 28px;
+	width: 70px;
+	border: 1px solid #FFFFFF;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+table th, table td {
+  border: solid 1px #777777;
+  padding: 8px;
+}
+
+table tr td:nth-of-type(1) {
+  /* 1列目のtdのみ項目列として定義 */
+  background-color: #20716A;
+  color: #FFFFFF;
+}
+
+table tr td:nth-of-type(2) {
+  background-color: #F3FFD8;
+}
+
+#button-area {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#companyName {
+  width: 300px;
+}
+
+#dtNotUse {
+  width: 150px;
+}
+
+#txtNotUseReason {
+  width: 350px;
+  height: 80px;
+}
+
+#cdPostF {
+  width: 60px;
+}
+
+#cdPostE {
+  width: 100px;
+}
+
+#prefectureKb {
+  width: 100px;
+}
+
+#nmCity {
+  width: 200px;
+}
+
+#creditLimit {
+  width: 150px;
+}

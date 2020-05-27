@@ -1,0 +1,78 @@
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title></title>
+		<meta charset="utf-8">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="jquery-ui.min.js"></script>
+		<script type="text/javascript" src="chapter6.js"></script>
+		<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+		<link rel="stylesheet" href="jquery-ui.min.css" />
+		<link rel="stylesheet" href="jquery-ui.structure.min.css" />
+		<link rel="stylesheet" href="jquery-ui.theme.min.css" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="chapter6.css" />
+		<link rel="shortcut icon" href="">
+	</head>
+	<body>
+		<div class="flexbox">
+			<h1>Js研修</h1>
+		</div>
+		<div>
+			<div id="msg-area">
+			</div>
+			<form action="#">
+				<div>
+					<table>
+						<tr>
+							<td>入力値１</td>
+							<td>
+								<input type="text" id="txt1" / >
+							</td>
+						</tr>
+						<tr>
+							<td>入力値２</td>
+							<td>
+								<input type="date" id="dt2" maxlength="8" / >
+							</td>
+						</tr>
+						<tr>
+							<td>入力値３</td>
+							<td>
+								<textarea id="txt3" rows="3" cols="20"></textarea>
+							</td>
+						</tr>
+						<tr>
+							<td>入力値４</td>
+							<td>
+								<select id="slt4" size="12">
+									<option value=""></option>
+									<option value="test">test</option>
+									<option value="test2">test2</option>
+								</select>
+								<span><input id="btnChange" type="button" class="sbmNomalBtn bg-blue" value="活性・非活性" style="width:100px;margin-left:5px;" /></span>
+							</td>
+						</tr>
+						<tr>
+							<td>入力値５</td>
+							<td>
+								<input type="radio" name="rdogrp" value="選択値１">選択値１</input>
+								<input type="radio" name="rdogrp" value="選択値２">選択値２</input>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div id="button-area">
+					<span><input id="btnAdd" type="button" class="sbmNomalBtn bg-blue" value="登録" /></span>
+				</div>
+				<div id="modal-area" title="処理中">
+					<div id="loader-area"></div>
+					<div id="load-text-area"></div>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<title>お問い合わせページ</title>
+	</head>
+	<body>
+		<header>
+			<h1>お問い合わせページ</h1>
+		</header>
+		<main>
+			<p>各項目に入力の上、送信ボタンをクリックしてください。</p>
+			<form method="post" action="#">
+				<fieldset>
+					<legend>個人情報</legend>
+					<label for="txtName">お名前</label>
+					<input type="text" id="txtName" name="txtName" required></input><br/>
+					<label for="txtBirth">生年月日</label>
+					<input type="date" id="txtBirth" name="txtBirth" required></input><br/>
+					<label for="txtMail">メールアドレス</label>
+					<input type="email" id="txtMail" name="txtMail" required></input><br/>
+					性別<br/>
+					<label for="rdoGenderMale">
+						<input type="radio" id="rdoGenderMale" name="rdoGender" value="1" checked>男
+					</label>
+					<label for="rdoGenderFemale">
+						<input type="radio" id="rdoGenderFemale" name="rdoGender" value="0">女
+					</label>
+				</fieldset>
+				<fieldset>
+					<legend>お問い合わせ内容</legend>
+					お問い合わせの対象<br/>
+					<label for="chkBusiness">
+						<input type="checkbox" id="chkBusiness" name="target" value="1">商談のお申込み
+					</label>
+					<label for="chkEducation">
+						<input type="checkbox" id="chkEducation" name="target" value="2">研修について
+					</label>
+					<label for="chkOther">
+						<input type="checkbox" id="chkOther" name="target" value="3">その他
+					</label><br/>
+					<label for="txtContent">
+						お問い合わせ内容を具体的にお書きください。<br/>
+						<textarea type="checkbox" id="txtContent" name="txtContent" cols="100" rows="10"></textarea>
+					</label>
+				</fieldset>
+				<button type="submit">送信</button>
+			</form>
+		</main>
+		<footer>
+			<p>atelier-info. All Rights Reserved.</p>
+		</footer>
+	</body>
+</html>

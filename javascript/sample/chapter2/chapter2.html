@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title></title>
+		<meta charset="utf-8">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="text/javascript" src="chapter2.js"></script>
+		<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="chapter2.css" />
+		<link rel="shortcut icon" href="">
+	</head>
+	<body onload="showAlert('load');">
+		<div class="flexbox">
+			<h1>Js研修 chapter1</h1>
+		</div>
+		<div>
+			<div id="msg-area">
+			</div>
+			<form action="#">
+				<div>
+					<table>
+						<tr>
+							<td>click</td>
+							<td>
+								<input type="button" id="btnClick" class="sbmNomalBtn bg-blue" style="width:150px;" value="クリックイベント" onClick="showAlert('btnClick');" />
+							</td>
+						</tr>
+						<tr>
+							<td>mouseover/mouseout</td>
+							<td>
+								<input type="text" id="txt2" onMouseOver="showAlert('txt2_mouseover');" onMouseOut="showAlert('txt2_mouseout');" />
+							</td>
+						</tr>
+						<tr>
+							<td>focus</td>
+							<td>
+								<input type="text" id="txt3" onFocus="showAlert('txt3_focus');" />
+							</td>
+						</tr>
+						<tr>
+							<td>focusout</td>
+							<td>
+								<input type="text" id="txt4" onFocusOut="showAlert('txt4_blur');" />
+							</td>
+						</tr>
+					</table>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>
